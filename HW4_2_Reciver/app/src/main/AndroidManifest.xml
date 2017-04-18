@@ -20,10 +20,11 @@
         </activity>
 
         <receiver
-            android:name=".BoardCastReceiver"
-            android:enabled="true"
-            android:exported="true">
-            <action android:name="nickyboardcast"/>
+            android:name=".BoardCastReceiver">
+            <intent-filter>
+                <action android:name="nicky.NOTIFICATION" />
+            </intent-filter>
+
         </receiver>
     </application>
 

@@ -23,9 +23,6 @@
             android:name=".MyReceiver"
             android:enabled="true"
             android:exported="true">
-            <intent-filter>
-                <action android:name="nicky.NOTIFICATION" />
-            </intent-filter>
         </receiver>
 
         <activity

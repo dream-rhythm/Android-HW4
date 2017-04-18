@@ -1,4 +1,7 @@
 <resources>
-    <string name="app_name">Sender</string>
+    <string name="app_name">HW4-1_Sender</string>
     <string name="action_settings">Settings</string>
+    <string name="TextView_Name">Name</string>
+    <string name="btn_SayHello">Say Hello</string>
+    <string name="title_activity_to_board_cast">ToBoardCast</string>
 </resources>

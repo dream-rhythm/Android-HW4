@@ -20,13 +20,15 @@ public class ToBoardCast extends AppCompatActivity {
 
         String name = getIntent().getStringExtra("Name");
         TextView tv = new TextView(ToBoardCast.this);
-        tv.setText(name);
-        setContentView(tv);
+        tv.setText("name="+name);
 
-        Intent intent = new Intent();
-        intent.setAction("nicky.baordcast");
-        intent.putExtra("baordcast_Name", name);
+
+        Intent intent = new Intent("nickyboardcast");
+        //intent.setAction("nicky.boardcast");
+        intent.putExtra("boardcast_Name", name);
         sendBroadcast(intent);
+
+        setContentView(tv);
     }
 
 }
